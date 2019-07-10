@@ -2,6 +2,11 @@
 
 v-html link router component for Vue Storefront
 
+When using data from extenal resources, e.g. Magento CMS Pages and CMS Blocks, if the content has links, they will do a refresh to access the link. With this, it will find links in the CMS Page Content, intercept their click event and use Vue Router to go to these links without refresh.
+
+This only works with relative links, e.g. /home, if link is specified as http://page.url/home, it will do a redirect with a refresh.
+
+
 ## Installation
 
 1. Download this repo into `src/modules/v-hmtl-router` folder.

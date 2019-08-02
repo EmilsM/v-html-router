@@ -50,7 +50,7 @@ export default {
     }
   },
   mounted () {
-      this.vHtmlRouter(this.refs.referenceElement)
+      this.vHtmlRouter(this.$refs.referenceElement)
   }
 }
 </script>

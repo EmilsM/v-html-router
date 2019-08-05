@@ -9,7 +9,7 @@ This only works with relative links, e.g. /home, if link is specified as http://
 
 ## Installation
 
-1. Download this repo into `src/modules/v-hmtl-router` folder.
+1. Download this repo into `src/modules/v-html-router` folder.
 2. Register module in `src/modules/index.ts`
 
 ```js
@@ -34,7 +34,7 @@ For example you can create a custom component like the following:
 ```vue
 <template>
   <div class="row center-xs">
-    <div class="col-sm-3 pb15" refs="referenceElement" v-html="html"/>
+    <div class="col-sm-3 pb15" ref="referenceElement" v-html="html"/>
   </div>
 </template>
 
